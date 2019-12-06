@@ -1,0 +1,64 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 10px;
+    font-family: 'EB Garamond', serif;
+}
+.my-section{
+    background-color:#f7beff3b;
+    margin: 1.4rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    text-align: center;
+}
+.title p{
+    font-size: .9rem;
+    margin-bottom: .4em;
+}
+.title h1{
+    color: #cd4dcc;
+    font-size: 1.7rem;
+    margin-bottom: 1.5rem;
+    text-transform: capitalize;
+}
+.card{
+    padding: 1.5rem;
+    height: 20vh;
+    width: 110%;
+    margin-bottom: 1rem;
+    background-color: white;
+    position: relative;
+    box-shadow: -5px 5px 12px -4px rgba(0, 0, 0, 0.5);
+}
+.content
+{
+    display: flex;
+}
+.color
+{
+    height: 20vh;
+    width: .2rem;
+    background-color:#cd4dcc;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.text h2{
+    color: #cd4dcc;
+    font-size: .8rem;
+    margin-bottom: .6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.text p{
+    font-size: .9rem;
+    margin-bottom: .9rem;
+    color: gray;
+}
